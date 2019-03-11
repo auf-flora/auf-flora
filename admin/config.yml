@@ -16,6 +16,10 @@ collections:
       - {label: "Title", name: "title", widget: "string"}
       - {label: "Featured Image", name: "image", widget: "image"}
       - {label: "Body", name: "body", widget: "markdown"}
-      - {label: "Post Author", name: "author", widget: "relation", collection: "post", searchFields: ["title"], valueField: "title"}
+      - {label: "Location", name: "location", widget: "relation", collection: "location", searchFields: ["location"], valueField: "location"}
     editor:
       preview: false
+  - name: "location"
+    label: "Location"
+    folder: "_locations"
+    slug: "{{slug}}"
