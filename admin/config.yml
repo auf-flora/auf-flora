@@ -23,3 +23,5 @@ collections:
     label: "Location"
     folder: "_locations"
     slug: "{{slug}}"
+    fields:
+      - {label: "location", name: "location", widget: "string"}
