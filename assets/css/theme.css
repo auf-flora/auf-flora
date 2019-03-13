@@ -293,9 +293,11 @@ article .card-body {
 }
 a.prev {    
     left: 100px;    
+	visibility: hidden;
 }
 a.next {
     right: 100px;
+	visibility: hidden;
 }
 #resultsmodal {
      background: rgba(255,255,255,0.8);
