@@ -19,9 +19,9 @@ collections:
       - {label: "Location", name: "categories", widget: "relation", collection: "location", searchFields: ["location"], valueField: "location"}
     editor:
       preview: false
-  - name: "location"
-    label: "Location"
-    folder: "_locations"
-    slug: "{{slug}}"
-    fields:
-      - {label: "location", name: "location", widget: "string"}
+#  - name: "location"
+#    label: "Location"
+#    folder: "_locations"
+#    slug: "{{slug}}"
+#    fields:
+#      - {label: "location", name: "location", widget: "string"}
